@@ -5,8 +5,6 @@ import { nhsukEleventyPlugin } from '@x-govuk/nhsuk-eleventy-plugin'
 const serviceName = 'Select for Invitation (SPI) guidance'
 
 export default function (eleventyConfig) {
-  // Read version from package.json
-  const pkg = require('./package.json');
   // Register the NHS.UK Eleventy plugin
   eleventyConfig.addPlugin(nhsukEleventyPlugin, {
     templates: {
@@ -41,7 +39,6 @@ export default function (eleventyConfig) {
           label: 'Cookies'
         }
       ],
-      version: pkg.version
     },
     // Enable heading permalinks
     markdown: {
