@@ -1,0 +1,24 @@
+{
+  "name": "nhs-spi-guidance",
+  "version": "1.0.0",
+  "description": "NHS SPI guidance documentation site",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "dev": "eleventy --serve --watch"
+  },
+  "keywords": [
+    "nhs",
+    "documentation",
+    "eleventy"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@x-govuk/nhsuk-eleventy-plugin": "^1.0.4"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
