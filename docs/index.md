@@ -1,7 +1,7 @@
 ---
 layout: page
 title: NHS SPI Guidance
-description: Documentation and guidance for NHS Spine Integration Platform
+description: Documentation and guidance for NHS Selct People for Invitation Platform
 ---
 
 # NHS SPI Guidance
