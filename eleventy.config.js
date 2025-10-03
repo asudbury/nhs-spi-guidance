@@ -5,6 +5,8 @@ import { nhsukEleventyPlugin } from '@x-govuk/nhsuk-eleventy-plugin'
 const serviceName = 'Select for Invitation (SPI) guidance'
 
 export default function (eleventyConfig) {
+  // Read version from package.json
+  const pkg = require('./package.json');
   // Register the NHS.UK Eleventy plugin
   eleventyConfig.addPlugin(nhsukEleventyPlugin, {
     templates: {
@@ -17,15 +19,13 @@ export default function (eleventyConfig) {
     url:
       process.env.GITHUB_ACTIONS &&
       'https://asudbury.github.io/nhs-spi-guidance/',
-    
     // Configure the header
     header: {
       service: {
-        name: 'NHS SPI Guidance',
+        name: serviceName,
         href: '/'
       }
     },
-    
     // Configure the footer
     footer: {
       copyright: {
@@ -40,14 +40,13 @@ export default function (eleventyConfig) {
           URL: '/cookies',
           label: 'Cookies'
         }
-      ]
+      ],
+      version: pkg.version
     },
-    
     // Enable heading permalinks
     markdown: {
       headingPermalinks: true
     },
-    
     // Enable additional templates
     templates: {
       sitemap: true,
