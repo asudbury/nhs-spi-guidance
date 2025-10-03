@@ -4,8 +4,6 @@ title: NHS SPI Guidance
 description: Documentation and guidance for NHS Selct People for Invitation Platform
 ---
 
-# NHS SPI Guidance
-
 Welcome to the NHS Spine Integration Platform (SPI) guidance documentation.
 
 ## About NHS SPI
