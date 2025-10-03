@@ -12,16 +12,34 @@ Welcome to the NHS Spine Integration Platform (SPI) guidance documentation.
 
 The NHS Spine Integration Platform provides a modern, API-based approach to integrating with NHS Spine services.
 
-## Getting Started
+## Documentation
 
-This documentation provides guidance on:
+This documentation provides comprehensive guidance for integrating with NHS SPI:
 
-- Understanding NHS SPI architecture
-- Integration patterns and best practices
-- API reference documentation
-- Security and authentication requirements
-- Testing and deployment
+### [Getting Started](/getting-started/)
 
-## Next Steps
+Learn the basics and make your first API call. This section covers:
+- Prerequisites and access requirements
+- Quick start guide
+- Development environment setup
 
-Explore the documentation sections to learn more about integrating with NHS SPI.
+### [Architecture](/architecture/)
+
+Understand the NHS SPI architecture. This section covers:
+- System components and design
+- Security model
+- Integration patterns
+- High availability features
+
+### [API Reference](/api-reference/)
+
+Complete API documentation including:
+- Authentication methods
+- Available endpoints
+- Request/response formats
+- Error handling
+- Rate limiting
+
+## Support
+
+For questions or support, please contact your NHS SPI administrator or raise an issue in this repository.
