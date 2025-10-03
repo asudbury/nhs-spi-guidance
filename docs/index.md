@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: nhsuk
 title: NHS SPI Guidance
 description: Documentation and guidance for NHS Selct People for Invitation Platform
 ---
